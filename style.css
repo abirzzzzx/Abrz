@@ -1,1 +1,28 @@
 
+body {
+  font-family: Arial, sans-serif;
+  margin: 40px;
+  background: #f9f9f9;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 320px;
+  font-size: 16px;
+}
+
+button {
+  padding: 12px 24px;
+  font-size: 16px;
+  margin-left: 8px;
+}
+
+#response {
+  margin-top: 28px;
+  padding: 18px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.12);
+  min-height: 60px;
+  font-size: 17px;
+}
