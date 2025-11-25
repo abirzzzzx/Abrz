@@ -1,6 +1,5 @@
 // PLACE YOUR OPENROUTER TOKEN BELOW (replace YOUR_OPENROUTER_API_TOKEN)
-const OPENROUTER_API_TOKEN = "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";
-
+const OPENROUTER_API_TOKEN = "__OPENROUTER_API_TOKEN__";
 async function askAI() {
   const input = document.getElementById('userInput').value;
   const responseDiv = document.getElementById('response');
