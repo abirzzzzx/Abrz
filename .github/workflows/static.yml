@@ -41,3 +41,5 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        - name: Replace API token in script.js
+  run: sed -i "s/__OPENROUTER_API_TOKEN__/${{ secrets.key }}/g" script.js
